@@ -1,0 +1,31 @@
+I have created an email signature in HTML which can be simply pasted into the signature field for gmail.
+
+Gmail has its limitations when it comes to custom signatures and doesn't allow many freedoms of design compared to outlook or other email clients
+
+The html document uses websafe fonts which should consistently translate across mobile and other clients
+
+Instructions:
+
+Logos, Social Media Icons and Footer Image must be replaced with your hosted Images
+before Use...This should be a 1 time step, Do not use images hosted on google drive. Recommend hosting files on company word press site. If these options are missing First enable development options within your browser 
+
+1. Right click .html file and open in your preferred browser
+2. Right click page and choose “inspect” make sure you are on element tab or (ctrl+shift+I) to inspect
+3. Click Drop Down Icons ? to expand <body></body> tag
+4. Expand all ?  tags or (ctrl+shift+f) to search within html file
+Search “img” or “src=”
+change URL within src=” ” commas to appropriate hosted image asset
+Example <img src=”URL” 
+5. Once all social media, Logos, footer elements are changed refresh page
+if images are missing please ensure correct url was added or images are made public with host service
+6. Right click page and save as HTML only 
+7. Open created HTML file then ctrl+a to select page
+8. Open GMAIL Settings? general tab? scroll down to Signature Section
+9. Click [+ Create New] & paste or ctrl+v signature into text area
+Ensure All image assets are present
+
+The Signature (names & Number & emai) can be updated within the text area field, please click “change” to edit hyperlinks...Additional instructions can be found inside the html file itself. 
+
+Editing Document with a word processor is not recommended but for windows users Note Pad can be used. Right click html file and select open with Notepad. Ctrl F can be used to search for ? src=” ” 
+Each section has been labeled for ease of use
+
